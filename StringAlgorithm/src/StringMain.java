@@ -8,15 +8,15 @@ import java.util.ArrayList;
 
 public class StringMain {
 
-	static ArrayList<Integer> indexer = new ArrayList<Integer>();
 	
-
+  static ArrayList<Integer> indexer = new ArrayList<Integer>();
+	
 	public static void main(String[] args) throws IOException {
 				
 
 		 File file = new File("data.txt");
 		 readFile(file ,"SMTP");
-         indexer.forEach(val -> System.out.print(val+" "));
+                 indexer.forEach(val -> System.out.print(val+" "));
 		
 
 	}
